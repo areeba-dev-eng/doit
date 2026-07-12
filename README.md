@@ -1,6 +1,6 @@
 <div align="center">
 
-# DoIt
+# DoIt Taskflow
 
 **A full-stack task manager — organize, prioritize, and track your work in real time.**
 
