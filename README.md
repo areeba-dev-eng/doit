@@ -1,4 +1,19 @@
-# DoIt — Full-Stack Task Manager (MERN)
+<div align="center">
+
+# DoIt
+
+**A full-stack task manager — organize, prioritize, and track your work in real time.**
+
+![React](https://img.shields.io/badge/React-Vite-61DAFB?logo=react&logoColor=white&labelColor=20232a)
+![Node.js](https://img.shields.io/badge/Node.js-Express-339933?logo=node.js&logoColor=white&labelColor=1e1e1e)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb&logoColor=white&labelColor=1e1e1e)
+![JWT](https://img.shields.io/badge/Auth-JWT--ready-000000?logo=jsonwebtokens&logoColor=white)
+
+![DoIt Screenshot](screenshots/doit-app.png)
+
+</div>
+
+---
 
 A full-stack task management application built with MongoDB, Express, React, and Node.js. Users can create, filter, complete, and delete tasks with priority levels.
 
@@ -19,8 +34,8 @@ A full-stack task management application built with MongoDB, Express, React, and
 
 ## Project Structure
 
-```
-taskflow-mern/
+\`\`\`
+doit/
 ├── backend/
 │   ├── models/Task.js
 │   ├── routes/tasks.js
@@ -30,28 +45,28 @@ taskflow-mern/
     ├── src/App.jsx
     ├── src/App.css
     └── package.json
-```
+\`\`\`
 
 ## Getting Started
 
 ### Backend
 
-```bash
+\`\`\`bash
 cd backend
 npm install
 cp .env.example .env   # set your MongoDB connection string
 npm start
-```
+\`\`\`
 
 Runs on `http://localhost:5000`.
 
 ### Frontend
 
-```bash
+\`\`\`bash
 cd frontend
 npm install
 npm run dev
-```
+\`\`\`
 
 Runs on `http://localhost:5173`.
 
